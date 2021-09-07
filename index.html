@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maskwala</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+        .mask-wala-care {
+            color: cyan;
+        }
+
+        .maskwala-top-button:hover {
+            background-color: darkblue;
+            color: white;
+            font-weight: 700;
+
+        }
+
+        .fas {
+            font-size: 2em;
+        }
+
+        .maskwala-top-cards:hover {
+            color: cadetblue;
+
+
+        }
+
+        .fa-star,
+        .fa-star-half-alt {
+            color: goldenrod;
+            font-size: 1em;
+
+        }
+
+        .prdc:hover .fa-star,
+        .fa-star-half-alt {
+            color: hotpink;
+            display: none;
+        }
+
+        .mask-wala-prdc-option {
+            display: none;
+        }
+
+        .prdc:hover .mask-wala-prdc-option {
+            display: block;
+        }
+
+        .prdc:hover .first {
+
+            display: none;
+
+        }
+
+        .sub-first {
+            display: none;
+        }
+
+        .prdc:hover .sub-first {
+            transform: scale(0.4);
+            transition: transform 5s linear;
+            display: block;
+        }
+
+        .prdc-card {
+            position: relative;
+        }
+
+        .featurs {
+            display: none;
+        }
+
+        .prdc:hover .featurs {
+            position: absolute;
+            top: 0;
+            right: 2%;
+            display: block;
+        }
+
+        .fa-heart:hover {
+            color: red;
+        }
+        /* .showcase-card{
+            background-image: url(images/maskwala-showcase-img-1.png);
+            padding: 15px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- header---start -->
+
+    <header>
+        <!-- top---banner---start -->
+        <section class="">
+            <div class="container  p-5 rounded">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1 class="fs-1 fw-bolder">Take <span class="mask-wala-care"> Care <br>
+                                Of Your </span> Health</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eius
+                            mod tempor incididunt ut
+                        </p>
+                        <button class="btn  maskwala-top-button btn-warning mt-5 rounded p-2 text-center">shop
+                            now</button>
+                    </div>
+                    <img src="images/—Pngtree—green 3d hand sanitizer element_5346088 (3).png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!-- delevary-section -->
+
+        <section>
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-lg-3 col-6 maskwala-top-cards">
+                        <div class="p-2 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-4"><i class="fas fa-truck"></i></div>
+                                <div class="col-lg-8 col-8">
+                                    <h6>FREE SHIPPING
+                                    </h6>
+                                    <p>On Order Over $100
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 maskwala-top-cards">
+                        <div class="p-2 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-4"><i class="fas fa-gift"></i></div>
+                                <div class="col-lg-8 col-8">
+                                    <h6>WIN $100 TO SHOP
+
+                                    </h6>
+                                    <p>Get Membership
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 maskwala-top-cards">
+                        <div class="p-2 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-4"><i class="fas fa-headset"></i></div>
+                                <div class="col-lg-8 col-8">
+                                    <h6>ONLINE 24/7 SUPPORT
+
+                                    </h6>
+                                    <p>Sign Up For Gift
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 maskwala-top-cards">
+                        <div class="p-2 rounded bg-light">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 col-4"><i class="fas fa-money-check-alt"></i></div>
+                                <div class="col-lg-8 col-8">
+                                    <h6>14 - DAY MONEYBACK
+
+                                    </h6>
+                                    <p>Best Deal With 14 days
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- main--start -->
+    <main>
+        <!-- trending-section -->
+        <article>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3 gy-5">
+                    <div class="col-lg-4  prdc-card">
+                        <div class=" border-0 card shadow-lg">
+                        <div class="prdc">
+                            <div class="featurs">
+                                <span>like it</span>
+                                <i class="far fa-heart"></i> <br>
+                                <span>Watch details</span>
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <img src="images/prdc-1.jpg" class="card-img-top first" alt="...">
+                            <img src="images/sub-prdc1.jpg" class="card-img-top sub-first" alt="">
+                            <div class="card-body text-center">
+
+                                <h6 class="">Hexisol</h6>
+                                <p class="">99.99 germ killing power</p>
+                                <p class=" fw-bolder">from $99.66</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="mask-wala-prdc-option ">
+                                    <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  prdc-card">
+                        <div class=" border-0 card  shadow-lg">
+                        <div class="prdc">
+                            <div class="featurs">
+                                <span>like it</span>
+                                <i class="far fa-heart"></i> <br>
+                                <span>Watch details</span>
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <img src="images/prdc-2.png" class="card-img-top first" alt="...">
+                            <img src="images/sub-prdc2.jpg" class="card-img-top sub-first" alt="">
+                            <div class="card-body text-center">
+
+                                <h6 class="">N-95 mask</h6>
+                                <p class="">99.99 germ killing power</p>
+                                <p class=" fw-bolder">from $99.66</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="mask-wala-prdc-option ">
+                                    <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  prdc-card">
+                        <div class=" card border-0 shadow-lg">
+                        <div class="prdc">
+                            <div class="featurs">
+                                <span>like it</span>
+                                <i class="far fa-heart"></i> <br>
+                                <span>Watch details</span>
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <img src="images/prdc-3.png" class="card-img-top first" alt="...">
+                            <img src="images/sub-prdc3.jpg" class="card-img-top sub-first" alt="">
+                            <div class="card-body text-center">
+
+                                <h6 class="">Corona gun</h6>
+                                <p class="">2 years warrenty</p>
+                                <p class=" fw-bolder">from $99.66</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="mask-wala-prdc-option ">
+                                    <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  prdc-card">
+                        <div class=" card border-0 shadow-lg">
+                        <div class="prdc">
+                            <div class="featurs">
+                                <span>like it</span>
+                                <i class="far fa-heart"></i> <br>
+                                <span>Watch details</span>
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <img src="images/prdc-4.png" class="card-img-top first" alt="...">
+                            <img src="images/sub-prdc4.jpg" class="card-img-top sub-first" alt="">
+                            <div class="card-body text-center">
+
+                                <h6 class="">Oximeter</h6>
+                                <p class="">2 years warrenty</p>
+                                <p class=" fw-bolder">from $99.66</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="mask-wala-prdc-option ">
+                                    <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                   
+                    <div class="col-lg-4 col-12 position-relative ">
+                      <div class="card">
+                        <img src="images/maskwala-showcase-img-1.png" class="card-img-top" alt="...">
+                        <div class="carousel-caption position-absolute end-0  top-50 start-50">
+                          <h5>Corona gun</h5>
+                          <h1 class="fw-bold">SALE <br> 30%</h1>
+                          <button class="btn btn-warning text-center p-2  rounded-pill ">Add to cart</button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                                
+                    <div class="col-lg-4 col-12">
+                        <div class="row gy-4">
+                    <div class="col-lg-12 col-12 position-relative">
+                        <div class="card">
+                          <img src="images/maskwala-showcase-img-2.png" class="card-img-top" alt="...">
+                          <div class="carousel-caption position-absolute text-dark end-50 top-0 start-0">
+                            <h5>BP Machine</h5>
+                            <h2 class="fw-bold">Take care  your heart</h2>
+                            <button class="btn bg-white text-dark rounded-pill p-2 ">Add to cart</button>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col-lg- col-12 position-relative">
+                        <div class="card">
+                          <img src="images/maskwala-showcase-img-3.png" class="card-img-top" alt="...">
+                          <div class="carousel-caption position-absolute end-0 text-dark top-0 start-50">
+                            <h5>kn-95</h5>
+                            <h1 class="fw-bold">Face  mask <br> Discount</h1>
+                            <button class="btn bg-white text-dark rounded-pill p-2">Add to cart</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12">
+                        <div class="row gy-4">
+                    <div class="col-lg-12 position-relative">
+                        <div class="card ">
+                          <img src="images/maskwala-showcase-img-4.png" class="card-img-top" alt="...">
+                          <div class="carousel-caption position-absolute text-white end-50 top-0 start-0">
+                            <h4>Toothbrush</h4>
+                            <h2 class="fw-bold">xiomi  <br>30% OFF</h2>
+                            <button class="btn bg-white text-dark rounded-pill p-2 ">Add to cart</button>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col-lg-12 position-relative">
+                        <div class="card">
+                          <img src="images/maskwala-showcase-img-5png.png" class="card-img-top" alt="...">
+                          <div class="carousel-caption position-absolute end-0 text-white top-0 start-50">
+                            <h4>Vitamins</h5>
+                            <h1 class="fw-bold">Vitamin <br> B,C,D</h1>
+                            <button class="btn bg-white text-dark rounded-pill p-2">Add to cart</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+
+            </div>
+        </section>
+    <!-- Another section -->
+    <article>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-3 ">
+                <div class="col-lg-3 col-6 prdc-card">
+                    <div class=" border-0 card shadow-lg">
+                    <div class="prdc">
+                        <div class="featurs">
+                            <span>like it</span>
+                            <i class="far fa-heart"></i> <br>
+                            <span>Watch details</span>
+                            <i class="far fa-eye"></i>
+                        </div>
+                        <img src="images/new-arrival-1.png" class="card-img-top first" alt="...">
+                        <img src="images/new-arrival-sub-1.png" class="card-img-top sub-first" alt="">
+                        <div class="card-body text-center">
+
+                            <h6 class="">Double lare mask</h6>
+                            <p class="">99.99 germ killing power</p>
+                            <p class=" fw-bolder">from $99.66</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <div class="mask-wala-prdc-option ">
+                                <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 prdc-card">
+                    <div class=" border-0 card  shadow-lg">
+                    <div class="prdc">
+                        <div class="featurs">
+                            <span>like it</span>
+                            <i class="far fa-heart"></i> <br>
+                            <span>Watch details</span>
+                            <i class="far fa-eye"></i>
+                        </div>
+                        <img src="images/new-arrival-2.png" class="card-img-top first" alt="...">
+                        <img src="images/new-arrival-sub-2.png" class="card-img-top sub-first" alt="">
+                        <div class="card-body text-center">
+
+                            <h6 class="">stetocope</h6>
+                            <p class="">99.99 germ killing power</p>
+                            <p class=" fw-bolder">from $99.66</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <div class="mask-wala-prdc-option ">
+                                <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6  prdc-card">
+                    <div class=" card border-0 shadow-lg">
+                    <div class="prdc">
+                        <div class="featurs">
+                            <span>like it</span>
+                            <i class="far fa-heart"></i> <br>
+                            <span>Watch details</span>
+                            <i class="far fa-eye"></i>
+                        </div>
+                        <img src="images/new-arrival-3.png" class="card-img-top first" alt="...">
+                        <img src="images/new-arrival-sub-3.png" class="card-img-top sub-first" alt="">
+                        <div class="card-body text-center">
+
+                            <h6 class="">Hand Wash</h6>
+                            <p class="">99.99 germ killing power</p>
+                            <p class=" fw-bolder">from $99.66</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <div class="mask-wala-prdc-option ">
+                                <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 prdc-card ">
+                    <div class=" card border-0 shadow-lg">
+                    <div class="prdc">
+                        <div class="featurs">
+                            <span>like it</span>
+                            <i class="far fa-heart"></i> <br>
+                            <span>Watch details</span>
+                            <i class="far fa-eye"></i>
+                        </div>
+                        <img src="images/new-arrival-5.png" class="card-img-top first" alt="...">
+                        <img src="images/new-arrival-sub-5.png" class="card-img-top sub-first" alt="">
+                        <div class="card-body text-center">
+
+                            <h6 class="">Oximeter</h6>
+                            <p class="">2 years warrenty  with service</p>
+                            <p class=" fw-bolder">from $99.66</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <div class="mask-wala-prdc-option ">
+                                <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 prdc-card">
+                    <div class=" card border-0 shadow-lg">
+                    <div class="prdc">
+                        <div class="featurs">
+                            <span>like it</span>
+                            <i class="far fa-heart"></i> <br>
+                            <span>Watch details</span>
+                            <i class="far fa-eye"></i>
+                        </div>
+                        <img src="images/new-arrival-4.png" class="card-img-top first" alt="...">
+                        <img src="images/new-arrival-sub-4.png" class="card-img-top sub-first" alt="">
+                        <div class="card-body text-center">
+
+                            <h6 class="">Kull Dude Mask</h6>
+                            <p class="">99% germ killing power</p>
+                            <p class=" fw-bolder">from $99.66</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <div class="mask-wala-prdc-option ">
+                                <button class="btn btn-info p-2  rounded-pill ">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-12 ">
+                    <div class="card border-0 position-relative">
+                      <img src="images/safety-img-1.png" class="card-img-top " alt="...">
+                      <div class="carousel-caption position-absolute  top-0 start-0">
+                       
+                        <h1 class="fw-bold text-dark">Buy 1 pack <br> GLOVES<br>get 1 pack free </h1>
+                        <button class="btn bg-white p-2  rounded-pill fw-bold">Add to cart</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-12 position-relative ">
+                    <div class="card border-0">
+                      <img src="images/safety-img-2.png" class="card-img-top " alt="...">
+                      <div class="carousel-caption position-absolute top-0 start-0 ">
+                        <h1 class="fw-bold text-dark container-fluid ">Buy 1 pack <br>Sanitaizer <br> get 1 pack free </h1>
+                        <button class="btn bg-white p-2  rounded-pill fw-bold">Add to cart</button>
+
+                        
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12 ">
+                    <div class="card border-0  position-relative">
+                      <img src="images/safety-img-3.png" class="card-img-top" alt="...">
+                      <div class="carousel-caption position-absolute  top-0 start-0  end-50">
+                        <h1 class="fw-bold text-dark container-fluid">Test CORONA <br> safely </h1>
+                        <button class="btn bg-white p-2  rounded-pill fw-bold">Add to cart</button>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </article>
+    </main>
+    <!-- footer--start -->
+    <footer></footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
